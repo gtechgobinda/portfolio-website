@@ -27,6 +27,8 @@ import "./About.scss";
 //     imgUrl: images.about04,
 //   },
 // ];
+
+// eslint-disable-next-line react-refresh/only-export-components
 const About = () => {
   const [abouts, setAbouts] = useState([]);
 
@@ -66,4 +68,5 @@ const About = () => {
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default AppWrap(About, "about");
