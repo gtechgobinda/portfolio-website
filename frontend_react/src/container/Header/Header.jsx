@@ -1,6 +1,7 @@
 // import React from 'react'
 import { motion } from "framer-motion";
 import { images } from "../../constants";
+import { AppWrap } from "../../wrapper";
 import "./Header.scss";
 
 const scaleVariants = {
@@ -13,6 +14,7 @@ const scaleVariants = {
     },
   },
 };
+// eslint-disable-next-line react-refresh/only-export-components
 const Header = () => {
   return (
     <>
@@ -67,4 +69,5 @@ const Header = () => {
   );
 };
 
-export default Header;
+// eslint-disable-next-line react-refresh/only-export-components
+export default AppWrap(Header, "home");
