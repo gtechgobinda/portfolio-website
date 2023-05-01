@@ -98,6 +98,20 @@ const Work = () => {
                   </motion.div>
                 </a>
               </motion.div>
+
+              {/* personal changes for mobile view hover effect problem  */}
+              <div className="app__work-hover-mobile app__flex">
+                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                  <div className="app__flex">
+                    <AiFillEye />
+                  </div>
+                </a>
+                <a href={work.codeLink} target="_blank" rel="noreferrer">
+                  <div className="app__flex">
+                    <AiFillGithub />
+                  </div>
+                </a>
+              </div>
             </div>
 
             <div className="app__work-content app__flex">
