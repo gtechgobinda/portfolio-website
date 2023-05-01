@@ -7,6 +7,7 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 
 import "./Testimonial.scss";
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Testimonial = () => {
   const [brands, setBrands] = useState([]);
   const [testimonials, setTestimonials] = useState([]);
@@ -28,6 +29,7 @@ const Testimonial = () => {
     <>
       {testimonials.length && (
         <>
+          <h2 className="head-text">Testimonial</h2>
           <div className="app__testimonial-item app__flex">
             <img src={urlFor(test.imageurl)} alt={test.name} />
             <div className="app__testimonial-content">
