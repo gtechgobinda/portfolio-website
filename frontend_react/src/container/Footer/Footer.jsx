@@ -2,6 +2,10 @@ import { useState } from "react";
 import { client } from "../../client";
 import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
+
+import { BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
+
 import "./Footer.scss";
 
 // eslint-disable-next-line react-refresh/only-export-components
@@ -44,6 +48,36 @@ const Footer = () => {
   return (
     <>
       <h2 className="head-text">Take a coffee & chat with me</h2>
+
+      {/* extra social media section  start*/}
+      <div className="app__social_mobile">
+        <a href="#" target="_blank" rel="noreferrer">
+          <div>
+            <BsLinkedin />
+          </div>
+        </a>
+        <a href="#" target="_blank" rel="noreferrer">
+          <div>
+            <BsGithub />
+          </div>
+        </a>
+        <a href="#" target="_blank" rel="noreferrer">
+          <div>
+            <BsTwitter />
+          </div>
+        </a>
+        <a href="#" target="_blank" rel="noreferrer">
+          <div>
+            <BsInstagram />
+          </div>
+        </a>
+        <a href="#" target="_blank" rel="noreferrer">
+          <div>
+            <FaFacebook />
+          </div>
+        </a>
+      </div>
+      {/* extra social media section end*/}
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
