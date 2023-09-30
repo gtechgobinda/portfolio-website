@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
-import { images } from "../../constants";
+// import { images } from "../../constants";
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -11,7 +11,8 @@ const Navbar = () => {
     <>
       <nav className="app__navbar">
         <div className="app__navbar-logo">
-          <img src={images.logo} />
+          {/* <img src={images.logo} /> */}
+          <p className="app_navbar-logo-name">GOBINDA SAHA</p>
         </div>
         <ul className="app__navbar-links">
           {["home", "about", "work", "skills", "testimonial", "contact"].map(
@@ -27,7 +28,7 @@ const Navbar = () => {
           <HiMenuAlt4 onClick={() => setToggle(true)} />
           {toggle && (
             <motion.div
-              whileInView={{ x: [300, 0] }}
+              whileInView={{ x: [250, 0] }}
               tramsition={{ duration: 0.35, ease: "easeOut" }}
             >
               <HiX onClick={() => setToggle(false)} />

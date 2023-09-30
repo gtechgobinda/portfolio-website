@@ -24,6 +24,15 @@
     border-radius: 15px;
     object-fit: cover;
   }
+  .bold-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .p-text {
+    text-align: justify;
+  }
   @media screen and (min-width: 2000px) {
     width: 370px;
     margin: 2rem 4rem;

@@ -1,6 +1,6 @@
 // import React from 'react'
-import { BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
-import { FaFacebook } from "react-icons/fa";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { FaFacebook, FaXTwitter } from "react-icons/fa6";
 const SocialMedia = () => {
   return (
     <>
@@ -29,7 +29,7 @@ const SocialMedia = () => {
           rel="noreferrer"
         >
           <div>
-            <BsTwitter />
+            <FaXTwitter />
           </div>
         </a>
         <a

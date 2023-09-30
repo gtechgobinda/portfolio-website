@@ -1,32 +1,8 @@
-// import {useState,useEffect}from 'react'
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { client, urlFor } from "../../client";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./About.scss";
-
-// const abouts = [
-//   {
-//     title: "Frontend Development",
-//     description: "I am a good web developer.",
-//     imgUrl: images.about01,
-//   },
-//   {
-//     title: "Web Design",
-//     description: "I am a good web developer.",
-//     imgUrl: images.about02,
-//   },
-//   {
-//     title: "UI/UX",
-//     description: "I am a good web developer.",
-//     imgUrl: images.about03,
-//   },
-//   {
-//     title: "Web Animations",
-//     description: "I am a good web developer.",
-//     imgUrl: images.about04,
-//   },
-// ];
 
 // eslint-disable-next-line react-refresh/only-export-components
 const About = () => {

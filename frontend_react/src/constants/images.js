@@ -32,9 +32,9 @@ import amazon from '../assets/amazon.png';
 import asus from '../assets/asus.png';
 import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
+import react2 from "../assets/react2.png";
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-
 export default {
   email,
   mobile,
@@ -69,4 +69,5 @@ export default {
   nb,
   skype,
   spotify,
+  react2,
 };
